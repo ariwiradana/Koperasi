@@ -1,9 +1,13 @@
+import Link from "next/link";
 import React from "react";
+import { Button } from "../components/atoms";
 
 export default function Dashboard() {
   return (
     <div className="h-screen w-screen flex justify-center items-center">
-      <p className="text-4xl">Dashboard</p>
+      <Link href="/login">
+        <Button title="Login" />
+      </Link>
     </div>
   );
 }

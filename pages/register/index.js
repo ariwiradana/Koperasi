@@ -30,7 +30,9 @@ export default function Register() {
             icon={<FiLock />}
             type="password"
           />
-          <Button title="Register" full />
+          <Link href="/">
+            <Button title="Register" full />
+          </Link>
         </div>
       </div>
     </div>

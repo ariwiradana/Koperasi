@@ -24,7 +24,9 @@ export default function Login() {
           </p>
           <Input placeholder="Email" type="email" icon={<FiMail />} />
           <Input placeholder="Password" icon={<FiLock />} type="password" />
-          <Button title="Login" full />
+          <Link href="/">
+            <Button title="Login" full />
+          </Link>
         </div>
       </div>
     </div>
